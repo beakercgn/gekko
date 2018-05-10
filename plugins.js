@@ -190,6 +190,17 @@ var plugins = [
     slug: 'ifttt',
     async: false,
     modes: ['realtime']
+  },
+  {
+        name: 'Google Forms',
+        description: 'Logs Trades to Google Forms',
+        slug: 'gforms',
+        async: false,
+        modes: ['realtime'],
+        dependencies: [{
+          module: 'request',
+          version: '2.85.0'
+        }]
   }
 ];
 
