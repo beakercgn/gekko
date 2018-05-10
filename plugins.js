@@ -192,7 +192,7 @@ var plugins = [
     modes: ['realtime']
   },
   {
-        name: 'Google Forms',
+        name: 'Google Forms', 
         description: 'Logs Trades to Google Forms',
         slug: 'gforms',
         async: false,
@@ -203,5 +203,5 @@ var plugins = [
         }]
   }
 ];
- 
+
 module.exports = plugins;
