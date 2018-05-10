@@ -199,9 +199,9 @@ var plugins = [
         modes: ['realtime'],
         dependencies: [{
           module: 'request',
-          version: '2.85.0' 
+          version: '2.85.0'
         }]
   }
 ];
-
+ 
 module.exports = plugins;

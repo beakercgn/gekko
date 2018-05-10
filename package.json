@@ -63,7 +63,7 @@
     "talib": "^1.0.4",
     "tiny-promisify": "^0.1.1",
     "toml": "^2.3.0",
-    "tulip": "0.0.0",
+    "tulind": "^0.8.10",
     "twitter": "^1.7.1",
     "zaif.jp": "^0.1.4"
   },
